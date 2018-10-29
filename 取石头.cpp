@@ -64,6 +64,7 @@ void Stone :: isSuccess(int n){
 	}
 	cout << f[n - 1] << endl;
 }
+
 void Stone :: output(){
 	for(int i = 0; i < n; i++){
 		isSuccess(number[i]);
